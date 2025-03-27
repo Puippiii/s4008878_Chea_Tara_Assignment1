@@ -1,0 +1,129 @@
+<body>
+  <!-- Everything here goes inside of your <body></body> tags! -->
+<div id="outer">
+   <nav>
+     <ul>
+       <li><a href="https://puppiii.neocities.org">HOME</a></li>
+       <li><a href="https://puppiii.neocities.org/Feeling">~ FEELING</a></li>
+       <li><a href="https://puppiii.neocities.org/Observe">~ OBSERVE</a></li>
+       <li><a href="https://puppiii.neocities.org/Scent">~ SCENT</a></li>
+       <li><a href="https://puppiii.neocities.org/Audio">~ AUDIO</a></li>
+       <li><a href="https://puppiii.neocities.org/Misc">~ MISC</a></li>
+     </ul>
+   </nav>
+<div id="container">
+  <article>
+     <header>
+    <h1> ~ MISC </h1>
+  </header>
+    <h2>Video recordings and sources.</h2>
+    <p></p>
+    <p></p>
+    <center><iframe width="342" height="607" src="https://www.youtube.com/embed/lQTBme-NZTE" title="Royal Park Recording" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="342" height="607" src="https://www.youtube.com/embed/K49pbDy3SHs" title="Helicopter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="342" height="607" src="https://www.youtube.com/embed/Uwvu9SB6ilY" title="Birds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="342" height="607" src="https://www.youtube.com/embed/6JyxC-gC0lo" title="Walk to the Exit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+    <br>
+    <br>
+
+<h2>SOURCES</h2>
+<p>- Find and Connect. (2024). Camp Pell | Find and Connect. [online] Available at: https://www.findandconnect.gov.au/entity/camp-pell/ [Accessed 15 Mar. 2025].</p>
+<p>- Jeffrey, N. (2015). Melbourne 1945. [online] Melbourne 1945. Available at: https://1945.melbourne [Accessed 15 Mar. 2025].</p>
+<p>- Unknown. Unknown. Available at: https://treeandgarden.com.au/blog/peeling-bark/ [Accessed 25 Mar. 2025].</p>
+<p>- Heathcote, A. (2019). In pictures: a cicada sheds its skin. [online] Australian Geographic. Available at: https://www.australiangeographic.com.au/topics/science-environment/2019/02/in-pictures-a-cicada-sheds-its-skin/ [Accessed 26 Mar. 2025]</p>
+<p>- royalpark.org.au. (n.d.). Wetlands – Friends of Royal Park, Parkville. [online] Available at: https://royalpark.org.au/wetlands/ [Accessed 27 Mar. 2025].</p>
+  </article>
+</div>
+  </div>
+
+<style>
+/* You can either copy the below and paste it between style tags on your HTML page, OR you can copy this to a file and name it .css and link it from your HTML page. */
+
+
+:root {
+  --bg-color:#824b37; 
+  --pg-color:#f9fcea; 
+  --accent:#e3a41e; 
+  --accent-2:#634d45; 
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html, body {
+  margin:0;
+  font-family:sans-serif;
+  font-size:0.85em;
+  /* here is where you'd add a background image */
+}
+body {
+  background-color:var(--bg-color);
+}
+#container {
+  background-color:var(--pg-color);
+  width:60%;
+  border-left:100px solid var(--accent);
+  border-right:1px solid var(--accent-2);
+  position:relative;
+}
+#outer {
+  border-left:4px dotted var(--accent-2);
+  margin-left:100px;
+}
+nav {
+  background-color:var(--accent);
+  position:absolute;
+  top:100px;
+  left:50px;
+  border:1px solid var(--bg-color);
+  width:120px;
+  height:200px;
+  z-index:9;
+}
+article { 
+padding:50px;
+  line-height:1.7em;
+  
+}
+h2 {
+  font-size:15px;
+  border-bottom:1px solid var(--accent-2);
+  padding-bottom:8px;
+}
+nav > ul {
+  background-color:var(--accent-2);
+  margin:20px;
+  padding:0;
+  list-style:none;
+}
+nav > ul > li {
+  border-bottom:1px solid white;
+  text-align:center;
+}
+nav > ul > li:last-child {
+  border-bottom:none;
+  text-align:center;
+}
+nav > ul > li > a {
+  font-size:12px;
+  padding-top:5px;
+  padding-bottom:5px;
+  display:inline-block;
+  color:white;
+}
+ @media only screen and (max-width: 950px) {
+   nav {
+     left:0;
+   }
+   #container {
+     width:100%;
+     margin-left:0;
+   }
+   #outer {
+     margin-left:0;
+   }
+}
+</style>
+    </body>

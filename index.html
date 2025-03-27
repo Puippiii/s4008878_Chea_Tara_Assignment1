@@ -1,0 +1,126 @@
+<body>
+  <!-- Everything here goes inside of your <body></body> tags! -->
+<div id="outer">
+   <nav>
+     <ul>
+      <li><a href="https://puppiii.neocities.org">HOME</a></li>
+       <li><a href="https://puppiii.neocities.org/Feeling">~ FEELING</a></li>
+       <li><a href="https://puppiii.neocities.org/Observe">~ OBSERVE</a></li>
+       <li><a href="https://puppiii.neocities.org/Scent">~ SCENT</a></li>
+       <li><a href="https://puppiii.neocities.org/Audio">~ AUDIO</a></li>
+       <li><a href="https://puppiii.neocities.org/Misc">~ MISC</a></li>
+     </ul>
+   </nav>
+<div id="container">
+  <article>
+     <header>
+    <h1>ROYAL PARK FIELD GUIDE </h1>
+  </header>
+    <h2>BY TARA</h2>
+    <p>This website will include content during my time in Royal Park, Melbourne.</p>
+    <p>My main themes for this project were vegetation and the general environment, and this place was explored during Autumn.</p>
+    <p>Royal Park to me gave off a very "safari" vibe, although it had areas with lush green grass and beautiful folliage. The fact this place is situated next to the Melbourne Zoo could also be the reason why I think of such.</p>
+    <p>I was also interested in exploring the environment in a way that felt like I was no longer in the city. I viewed this place as a "forest" and an "adventure", documenting how I felt and how I perceived Royal Park.</p>
+    <p>This website will provide visual, auditory, and descriptive contents of my experience in Royal Park and the things that caught my interest. </p>
+    <img src="IMG_9219.jpg" width="680" height="500">
+    <br>
+    <br>
+    <h2>DAILY RELFECTION #1: What are you most looking forward to doing in this project?</h2>
+    <p>During the time of exploring, I was looking forward to adventuring Royal Park, touching, smelling, and hearing whatever interested me. I look forward to going outside and being surrounded by nature, opposed to loud trams, cars, and trains, I was mainly looking forward to a peaceful travel.<p>
+    
+  </article>
+ 
+</div>
+  </div>
+
+<style>
+/* You can either copy the below and paste it between style tags on your HTML page, OR you can copy this to a file and name it .css and link it from your HTML page. */
+
+
+:root {
+  --bg-color:#824b37; 
+  --pg-color:#f9fcea; 
+  --accent:#e3a41e; 
+  --accent-2:#634d45; 
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html, body {
+  margin:0;
+  font-family:sans-serif;
+  font-size:0.85em;
+  
+  /* here is where you'd add a background image */
+}
+body {
+  background-color:var(--bg-color);
+}
+#container {
+  background-color:var(--pg-color);
+  width:60%;
+  border-left:100px solid var(--accent);
+  border-right:1px solid var(--accent-2);
+  position:relative;
+}
+#outer {
+  border-left:4px dotted var(--accent-2);
+  margin-left:100px;
+}
+nav {
+  background-color:var(--accent);
+  position:absolute;
+  top:100px;
+  left:50px;
+  border:1px solid var(--bg-color);
+  width:120px;
+  height:200px;
+  z-index:9;
+}
+article { 
+padding:50px;
+  line-height:1.7em;
+  
+}
+h2 {
+  font-size:15px;
+  border-bottom:1px solid var(--accent-2);
+  padding-bottom:8px;
+}
+nav > ul {
+  background-color:var(--accent-2);
+  margin:20px;
+  padding:0;
+  list-style:none;
+}
+nav > ul > li {
+  border-bottom:1px solid white;
+  text-align:center;
+}
+nav > ul > li:last-child {
+  border-bottom:none;
+  text-align:center;
+}
+nav > ul > li > a {
+  font-size:12px;
+  padding-top:5px;
+  padding-bottom:5px;
+  display:inline-block;
+  color:white;
+}
+ @media only screen and (max-width: 950px) {
+   nav {
+     left:0;
+   }
+   #container {
+     width:100%;
+     margin-left:0;
+   }
+   #outer {
+     margin-left:0;
+   }
+}
+</style>
+    </body>
